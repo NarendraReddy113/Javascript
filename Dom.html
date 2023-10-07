@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    <button onclick="demo()">Click</button>
+    <h1 id="Heading" onclick="color()">Hello Dom</h1>
+
+    <script>
+        function demo(){
+            document.body.style.background="black";
+        }
+        let Heading=document.getElementById("Heading");
+        function color(){
+            Heading.style.color="blue";
+            Heading.innerText+="Hello JS";
+        }
+    </script>
+</body>
+</html>
