@@ -31,3 +31,13 @@ function emojis(){
     arr[i].innerText="😊💕"
     }
 }
+
+let heading=document.getElementsByClassName("h");
+console.log(heading);
+
+let arr1=Array.from(heading);
+console.log(arr1);
+
+for(let i=0;i<arr1.length;i++){
+    arr1[i].innerText="💕"
+    }
